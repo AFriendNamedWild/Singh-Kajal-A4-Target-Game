@@ -15,6 +15,10 @@ namespace MohawkGame2D
         /// </summary>
         public void Setup()
         {
+            Window.SetSize(800, 600);
+            Window.SetTitle("Target Practice!");
+
+
 
         }
 
@@ -23,6 +27,11 @@ namespace MohawkGame2D
         /// </summary>
         public void Update()
         {
+
+            Window.ClearBackground(Color.OffWhite);
+
+
+
 
         }
     }
